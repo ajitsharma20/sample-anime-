@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.subheader("FD F!")
-st.image("pages\\a.jpg")
+st.image("pages/a.jpg")
 
 
 st.header("Thank you for your Prestigious time !")
