@@ -20,11 +20,11 @@ st.write("\n")
 
 col1, col2, col3 = st.columns([2, 2, 2],gap="medium",vertical_alignment='center',border=True)
 col1.subheader("Lookism")
-col1.image("artifacts\Lookism.jpg")
+col1.image("artifacts\\Lookism.jpg")
 col2.subheader("Naruto")
 col2.image("artifacts\\Naruto.jpg")
 col3.subheader("One_Piece")
-col3.image("artifacts\One_Piece.jpg")  
+col3.image("artifacts\\One_Piece.jpg")  
 st.selectbox("Pick one", ["None","Lookism", "Naruto","One_Piece"],placeholder="None")
 
 
